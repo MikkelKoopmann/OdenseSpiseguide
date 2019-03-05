@@ -1,0 +1,124 @@
+html    {
+    background-color: white;
+    font-family: Verdana ,sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 12px;
+}
+
+/* MAIN CSS */
+
+h1    {
+    font-size: 19px;
+}
+
+.main-nav  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff8500;
+    text-align: center;
+}
+
+li  {
+    display: inline-block;
+    padding: 8px;
+}
+
+li a    {
+    display: block;
+    color: white;
+    padding: 4px 18px;
+    text-decoration: none;
+    margin: 0;
+    font-size: 17px;
+}
+
+li a:hover  {
+    text-decoration: underline;
+}
+
+.leftcolumn {
+    float: left;
+    width: 70%;
+}
+
+.rightcolumn    {
+    float: right;
+    width: 25%;
+    padding-left: 10px;
+}
+
+.card   {
+    background-color: #fff5e6;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card2  {
+    background-color: #fff5e6;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    float: left;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+    width: 100%;
+    border-top-style: solid;
+    border-top-color: #ff8500;
+}
+
+
+.nyhederlink    {
+    background-color: orange;
+    padding: 5px;
+    color: white;
+}
+
+.nyhederlink:visited    {
+    color: white;
+}
+
+/* EKSTRA CSS */
+
+header   {
+    margin-top: 20px;
+    padding-left: 20px;
+    border-style: solid;
+    border-color: #ff8500;
+    text-align: center
+}
+
+.leftcolumn2    {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.leftcolumn3    {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.leftcolumn4    {
+    float: left;
+    width: 30%;
+}
+
+.leftcolumn5    {
+    float: left;
+    width: 100%;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width:600px) {
+  .leftcolumn, .rightcolumn, .leftcolumn2, .leftcolumn3, .leftcolumn4  {
+    width: 100%;
+  }
+}
